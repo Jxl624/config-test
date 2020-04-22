@@ -17,4 +17,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10 # 失效时间
     #prefer-ip-address: true  # 以ip地址注册到服务中心，互相注册使用ip，单节点部署分布式集群时不用配置
     
-envirment: test
+# fast配置
+fast:
+  host: http://localhost:19900
+  port: 19900
