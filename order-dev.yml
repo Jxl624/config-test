@@ -18,4 +18,7 @@ eureka:
     #prefer-ip-address: true  # 以ip地址注册到服务中心，互相注册使用ip，单节点部署分布式集群时不用配置
     
     
-envirment: dev 
+# fast配置
+fast:
+  host: http://192.168.56.100
+  port: 8001
