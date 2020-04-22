@@ -19,5 +19,5 @@ eureka:
     
 # fast配置
 fast:
-  host: http://localhost:19900
-  port: 19900
+  host: http://localhost:8080
+  port: 8080
