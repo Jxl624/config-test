@@ -1,7 +1,7 @@
 # fast配置
 fast:
-  host: http://localhost:8787
-  port: 8787
+  host: http://localhost:9999
+  port: 9999
 # mysql
 mysql:
   url: xxxx
