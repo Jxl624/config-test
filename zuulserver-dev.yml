@@ -5,6 +5,6 @@ zuul:
       # url: http://localhost:8081
        serviceid: app-item
      order-server:
-       path: /order-server/**
-       serviceid: app-order
+#        path: /order-server/**
+#        serviceid: app-order
 #    app-order: /order-server/**
