@@ -1,0 +1,10 @@
+zuul:
+  routes:
+     items-server:
+       path: /item-server/**
+      # url: http://localhost:8081
+       serviceid: app-item
+     order-server:
+       path: /order-server/**
+       serviceid: app-order
+#    app-order: /order-server/**
