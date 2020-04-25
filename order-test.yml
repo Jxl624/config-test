@@ -2,3 +2,8 @@
 fast:
   host: http://localhost:8787
   port: 8787
+# mysql
+mysql:
+  url: xxxx
+  user: xxxx
+  password: xxx
